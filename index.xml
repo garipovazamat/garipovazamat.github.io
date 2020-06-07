@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Гарипов Азамат</title>
+        <link>https://garipovazamat.github.io/</link>
+        <description>Гарипов Азамат</description>
+        <generator>Hugo -- gohugo.io</generator><language>ru</language><lastBuildDate>Sun, 07 Jun 2020 18:54:39 &#43;0500</lastBuildDate>
+            <atom:link href="https://garipovazamat.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Самые полезные приемы ускоряющие работу разработчика</title>
+    <link>https://garipovazamat.github.io/posts/most_useful_techniques/</link>
+    <pubDate>Sun, 07 Jun 2020 18:54:39 &#43;0500</pubDate>
+    <author>Автор</author>
+    <guid>https://garipovazamat.github.io/posts/most_useful_techniques/</guid>
+    <description><![CDATA[При написании кода, разработчику часто приходится делать рутинную работу. Это, например, выделение кода в отдельный метод или переименование названия классов или методов. Такие вещи не требуют творческого подхода, а только отнимают время.
+Поэтому их нужно автоматизировать как можно раньше. В этой статье я расскажу о самых часто используемых приемах в своей работе, которые и вам могут быть полезны.
+Автоматическое переименование переменных, методов, классов и т.д. Все современные IDE поддерживают такую возможность.]]></description>
+</item></channel>
+</rss>
