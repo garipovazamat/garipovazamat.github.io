@@ -1,11 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Гарипов Азамат</title>
-        <link>https://garipovazamat.github.io/</link>
-        <description>Гарипов Азамат</description>
-        <generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 09 Aug 2020 23:04:05 &#43;0500</lastBuildDate>
-            <atom:link href="https://garipovazamat.github.io/index.xml" rel="self" type="application/rss+xml" />
-        <item>
+        <title>исправление ошибок - Тэг - Гарипов Азамат</title>
+        <link>https://garipovazamat.github.io/tags/%D0%B8%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D1%88%D0%B8%D0%B1%D0%BE%D0%BA/</link>
+        <description>исправление ошибок - Тэг - Гарипов Азамат</description>
+        <generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 09 Aug 2020 23:04:05 &#43;0500</lastBuildDate><atom:link href="https://garipovazamat.github.io/tags/%D0%B8%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D1%88%D0%B8%D0%B1%D0%BE%D0%BA/" rel="self" type="application/rss+xml" /><item>
     <title>Как исправлять сложные баги</title>
     <link>https://garipovazamat.github.io/posts/how_to_fix_bugs/</link>
     <pubDate>Sun, 09 Aug 2020 23:04:05 &#43;0500</pubDate>
@@ -25,13 +23,5 @@
 Исправляйте причину ошибки, а не симптом Часто ошибки являются лишь симптомом какой-то более сложной ошибки. Хочется убрать ошибку как можно быстрее, и не разбираться в её причинах. Если исправит только симптом, то сама проблема окажется закопанной ещё глубже. Из-за нее могут возникнуть другие проблемы, и найти её в будущем будет сложнее. К тому же, то место, где вы её исправили, будет неоправданно усложнено лишней логикой. Это приведет к усложнению кода. А это уже приведет к замедлению вашей работы над этим проектом в будущем.
 Вывод Ситуации, в которых могут возникнуть баги, бывают очень разные. И подходы в их решении могут отличаться. Но практически в любом случае мы начинаем с одного и того же. Я лишь постарался это описать из своего опыта.
 Больше экспериментируйте при поиске причины, и старайтесь разбираться в технологиях, которые используете. Не зная этого, можно просто упустить причину проблемы.]]></description>
-</item><item>
-    <title>Полезные приемы ускоряющие работу разработчика</title>
-    <link>https://garipovazamat.github.io/posts/most_useful_techniques/</link>
-    <pubDate>Sun, 07 Jun 2020 18:54:39 &#43;0500</pubDate>
-    <author>Автор</author>
-    <guid>https://garipovazamat.github.io/posts/most_useful_techniques/</guid>
-    <description><![CDATA[<p>При написании кода, разработчику часто приходится делать рутинную работу. Это, например, выделение кода в отдельный метод или переименование названия классов или методов. Такие вещи не требуют творческого подхода, а только отнимают время.<br>
-Поэтому их нужно автоматизировать как можно раньше. В этой статье я расскажу о самых часто используемых приемах в своей работе, которые и вам могут быть полезны.</p>]]></description>
 </item></channel>
 </rss>

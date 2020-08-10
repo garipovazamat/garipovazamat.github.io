@@ -5,10 +5,10 @@
         <description>Dev Log - Категория - Гарипов Азамат</description>
         <generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 31 Jul 2020 22:41:07 &#43;0500</lastBuildDate><atom:link href="https://garipovazamat.github.io/categories/dev-log/" rel="self" type="application/rss+xml" /><item>
     <title>Первый лог</title>
-    <link>https://garipovazamat.github.io/posts/devlog/first-log/</link>
+    <link>https://garipovazamat.github.io/devlog/first-log/</link>
     <pubDate>Fri, 31 Jul 2020 22:41:07 &#43;0500</pubDate>
     <author>Автор</author>
-    <guid>https://garipovazamat.github.io/posts/devlog/first-log/</guid>
+    <guid>https://garipovazamat.github.io/devlog/first-log/</guid>
     <description><![CDATA[С этого поста я начинаю вести devlog. то заметки о том, что нового и интересного я узнал в разработке, проектировании и решении своих профессиональных задач.]]></description>
 </item></channel>
 </rss>
