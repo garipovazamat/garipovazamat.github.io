@@ -5,10 +5,19 @@
     <link>https://garipovazamat.github.io/devlog/</link>
     <description>Recent content in Devlogs on Гарипов Азамат</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 05 Sep 2020 15:19:31 +0500</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2020 20:16:31 +0500</lastBuildDate>
     
 	<atom:link href="https://garipovazamat.github.io/devlog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Заметки за сентябрь</title>
+      <link>https://garipovazamat.github.io/devlog/september_notes/</link>
+      <pubDate>Tue, 06 Oct 2020 20:16:31 +0500</pubDate>
+      
+      <guid>https://garipovazamat.github.io/devlog/september_notes/</guid>
+      <description>&lt;p&gt;Этот месяц был ленивей чем прошлый. Первую версию своего проекта закончить я не успел. Возможно из-за того, что много отвлекался на другие дела кроме работы и своего проекта. Надеюсь следующий месяц будет интереснее.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Заметки за август</title>
