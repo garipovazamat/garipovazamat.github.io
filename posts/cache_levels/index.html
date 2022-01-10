@@ -9,9 +9,10 @@
 <meta property="og:description" content="Для того, чтобы ускорить запросы и разгрузить сервер, разработчик в первую очередь задумывается над тем, чтобы использовать кеширование. Но кэширование можно делать на разных уровнях.
 В этой статье я рассмотрю возможные уровни, на которых можно применить кэш и какой уровень выбрать в разных ситуациях." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://garipovazamat.github.io/posts/cache_levels/" />
+<meta property="og:url" content="https://garipovazamat.github.io/posts/cache_levels/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2020-12-06T18:07:00+05:00" />
 <meta property="article:modified_time" content="2020-12-06T18:07:00+05:00" />
+
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Кэширование данных на разных уровнях"/>
 <meta name="twitter:description" content="Для того, чтобы ускорить запросы и разгрузить сервер, разработчик в первую очередь задумывается над тем, чтобы использовать кеширование. Но кэширование можно делать на разных уровнях.
@@ -125,12 +126,12 @@
 Более сложная технология, которая позволяет хранить в оперативной памяти и в фоне сохранять данные в постоянную память - <strong>redis</strong>. Она имеет больше памяти для хранения значений, но и требует немного больше ресурсов чем memcached.<br>
 Memcached стоит выбирать при кэшировании небольших кусков данных, к которым происходит очень частое обращение. При этом долговечность хранения данных в кэше не сильно критична. Если же вы хотите возможности сложной настройки кэширования, тогда выбирайте redis.</p>
 <p>При работе с кэшированием по ключу нужно учитывать, что возможно тяжелое кэширование. Если мы долго готовим данные, перед тем как их сохранить в кэш (например выполняем тяжелый запрос в базу), возникает промежуток времени, в котором кэш ещё не готов, но пользователи могут запрашивать данные из этого кэша. В этот момент кэш начнет формироваться повторно. Защититься от перегрузок в такой момент можно например при помощи <a href="https://ruhighload.com/%d0%a2%d1%8f%d0%b6%d0%b5%d0%bb%d0%be%d0%b5&#43;%d0%ba%d1%8d%d1%88%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5" target="_blank" rel="noopener noreffer">дублирования кэшей</a>.</p>
-<p>Более подробная статья про memcached и redis - <a href="https://habr.com/ru/company/oleg-bunin/blog/316652/">https://habr.com/ru/company/oleg-bunin/blog/316652/</a></p>
+<p>Более подробная статья про memcached и redis - <a href="https://habr.com/ru/company/oleg-bunin/blog/316652/" target="_blank" rel="noopener noreffer">https://habr.com/ru/company/oleg-bunin/blog/316652/</a></p>
 <h3 id="кэширование-на-уровне-бд">Кэширование на уровне БД</h3>
 <p>Многие базы данных могут сами кэшировать запрашиваемые данные.<br>
 Но может возникнуть вопрос - почему бы не использовать memcached вместо кэша внутри базы? Дело в том, что база данных может сама контроллировать свежесть данных в себе. И если в кэше данные будут старее чем в самой базе, она обновит этот кэш. Т.е. пользователю БД не нужно думать над обновлением кэша.<br>
-Про кэширование в mysql - <a href="https://habr.com/ru/post/41166/">https://habr.com/ru/post/41166/</a><br>
-В mongodb - <a href="https://habr.com/ru/post/219481/">https://habr.com/ru/post/219481/</a></p></div><div class="post-footer" id="post-footer">
+Про кэширование в mysql - <a href="https://habr.com/ru/post/41166/" target="_blank" rel="noopener noreffer">https://habr.com/ru/post/41166/</a><br>
+В mongodb - <a href="https://habr.com/ru/post/219481/" target="_blank" rel="noopener noreffer">https://habr.com/ru/post/219481/</a></p></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
@@ -160,8 +161,8 @@ Memcached стоит выбирать при кэшировании неболь
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
             </noscript></div></article></div>
             </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line">Сделано <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.72.0">Hugo</a> | Тема - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
-                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Азамат</a></span></div>
+        <div class="footer-container"><div class="footer-line">Сделано <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.91.2">Hugo</a> | Тема - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Азамат</a></span></div>
         </div>
     </footer></div>
 
